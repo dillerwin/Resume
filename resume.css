@@ -1,0 +1,47 @@
+html {
+    background-color: #222222;
+    color: #DDDDDD;
+    font-family: "JetBrains Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 2% 4%;
+    font-size: 15px;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+h3 {
+    margin-top: 1rem;
+}
+
+p {
+    padding: 0.3rem;
+}
+
+hr {
+    margin: 1rem 0;
+}
+
+ul {
+    margin-left: 2rem;
+}
+
+a:link, a:visited {
+    color: forestgreen;
+    text-decoration: none;
+}
+
+.contact-info {
+
+}

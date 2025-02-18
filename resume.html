@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+		<title>Dillon Erwin's Technical Resume</title>
+		<meta name="description" content="Dillon Erwin's Technical Resume"/>
+		<link rel="stylesheet" href="/resume.css" type="text/css" media="screen"/>
+		<!--		<link rel="stylesheet" href="/print.css" type="text/css" media="print"/>-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link
+			href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Red+Rose:wght@300..700&display=swap"
+			rel="stylesheet">
+		<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+		<script type="text/javascript">
+			window.onload = function() {
+				let beginning = new Date("January 20, 2022"),
+					seconds = Math.floor((new Date() - beginning) / 1000),
+					interval = seconds / 31536000,
+					yearsExp;
+				if (interval < 10) {
+					switch (Math.floor(interval)) {
+						case 3:
+							yearsExp = "Three years";
+							break;
+						case 4:
+							yearsExp = "Four years";
+							break;
+						case 5:
+							yearsExp = "Five years";
+							break;
+						case 6:
+							yearsExp = "Six years";
+							break;
+						case 7:
+							yearsExp = "Seven years";
+							break;
+						case 8:
+							yearsExp = "Eight years";
+							break;
+						case 9:
+							yearsExp = "Nine years";
+							break;
+						case 10:
+							yearsExp = "Ten years";
+							break;
+						default:
+							yearsExp = Math.floor(interval) + " years";
+							break;
+					}
+				}
+				document.getElementById("experience").innerHTML = yearsExp;
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Dillon Erwin</h1>
+		<p class="contact-info">
+			2101 Grandin Road Apt 410 &#8226; Cincinnati, Ohio 45208 &#8226;
+			<a href="mailto:dillerwin@gmail.com" target="_blank">dillerwin@gmail.com</a>
+		</p>
+		<p class="links">
+			<a href="https://github.com/dillerwin" target="_blank">Github</a>
+			|
+			<a href="http://linkedin.com/in/dillerwin" target="_blank">LinkedIn</a>
+		</p>
+		<hr>
+		<section class="summary">
+			<h2>Summary</h2>
+			<p>A Web Developer with
+			<ul>
+				<li><span id="experience"></span> of experience creating web apps;</li>
+				<li>A focus on usability and reliability;</li>
+				<li>Flexibility to shift priorities quickly;</li>
+				<li>Ability to learn anything.</li>
+			</ul>
+			</p>
+		</section>
+		<hr>
+		<section class="skills">
+			<h2>Skills</h2>
+			<h3>Web Technologies:</h3>
+			<ul>
+				<li>Proficient with JavaScript (including ES6 and Node.js), HTML, and CSS; familiar with TypeScript and Java.
+				</li>
+				<li>Proficient with ExtJS and React; familiar with Next.js, Vite, Spring, and Spring Boot.</li>
+				<li>Experience with both relational and document databases.</li>
+			</ul>
+			<h3>Communication/Tracking tools:</h3>
+			<ul>
+				<li>Google Workspace Applications.</li>
+				<li>Jira Project Tracking.</li>
+			</ul>
+			<h3>Other Technologies:</h3>
+			<ul>
+				<li>Experience with both Windows and Linux operating systems.</li>
+			</ul>
+		</section>
+		<hr>
+		<section class="experience">
+			<h2>Experience</h2>
+			<h3>Software Developer 1: <a href="public.vtinfo.com" target="_blank">Vermont Information Processing</a>;
+				Colchester, Vermont (2022-present)
+			</h3>
+			<p>
+			<ul>
+				<li>Built and maintained web applications for internal use.</li>
+				<li>Created a library of ExtJS components used in internal web applications.</li>
+				<li>Created and implemented Java backend calls, including SQL queries.</li>
+			</ul>
+			</p>
+			<h3>Assistant Store Manager: Pizza Hut; Aiken, South Carolina (2016-2020)</h3>
+			<ul>
+				<li>Manage and offer strong customer service by utilizing POS System Sales.</li>
+				<li>Serve customers by providing support, product and service information, and resolving any concerns
+				</li>
+				<li>Track and verify data for invoices and bank deposits for $3,000 sales on a daily basis</li>
+				<li>Train and onboard new employees (cooks, drivers, etc.)</li>
+			</ul>
+		</section>
+		<hr>
+		<section class="education">
+			<h2>Education</h2>
+			<p>Burlington Code Academy (now <a href="https://www.uprighted.com/" target="_blank"> Upright</a>);
+				Burlington, Vermont
+				<br>
+				Software Development Bootcamp (2021)
+			</p>
+		</section>
+	</body>
+</html>
