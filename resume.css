@@ -45,3 +45,7 @@ a:link, a:visited {
 .contact-info {
 
 }
+
+#subtle {
+    color: rgba(221, 221, 221, 0.2);
+}
